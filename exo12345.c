@@ -49,8 +49,6 @@ int entrerTaille(void)
 			printf("Taille invalide, veuillez reessayer.\n");
 		}
 	} while(n<1 || n>50);
-	printf("Entrer la taille du tableau T:");
-	scanf("%d", &n);
 	return (n);
 }
 void remplirTableau(int *tableau, int taille)
